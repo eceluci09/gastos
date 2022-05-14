@@ -18,10 +18,10 @@
 		<java.version>1.8</java.version>
 	</properties>
 	<modules>
-		<module>Business</module>
-		<module>Repository</module>
-		<module>UI</module>
-		<module>Models</module>
+		<module>service</module>
+		<module>repository</module>
+		<module>web</module>
+		<module>entity</module>
 	</modules>
 	<dependencies>
 		<dependency>
@@ -50,11 +50,6 @@
 				<plugin>
 					<groupId>org.springframework.boot</groupId>
 					<artifactId>spring-boot-maven-plugin</artifactId>
-					<!--configuration>
-						<jvmArguments>
-							-Xdebug -Xrunjdwp:transport=dt_socket,server=y,suspend=y,address=5005
-						</jvmArguments>
-					</configuration-->
 				</plugin>
 			</plugins>
 		</pluginManagement>
